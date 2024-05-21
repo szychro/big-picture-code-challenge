@@ -9,7 +9,9 @@
 2. Create virtual environment
 > python3 -m venv venv
 3. Activate virtual environment for Windows:
-> venv\Scripts\activate
+> For Windows: venv\Scripts\activate 
+
+>For macOS/Linux: source venv/bin/activate
 4. Install requirements
 > pip install -r requirements.txt
 5. Run the application
