@@ -12,9 +12,6 @@ def fetch_books(isbn):
     cover = book_data.get('cover', {}).get('large')
     identifiers = book_data.get('identifiers', {})
     
-    if not book_data.get('title') or not authors or not cover or not identifiers:
-        return None
-
     return {
         "title": book_data.get('title'),
         "author": authors[0]['name'] if authors else 'Unknown Author',
