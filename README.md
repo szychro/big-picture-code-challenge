@@ -2,8 +2,7 @@
 
 #### Installation
 1. Clone the repository
-> git clone https://github.com/szychro/
-big-picture-code-challenge.git
+> git clone `https://github.com/szychro/big-picture-code-challenge.git`
 
 >cd big-picture-code-challenge
 
